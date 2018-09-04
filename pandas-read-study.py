@@ -1,6 +1,7 @@
 import pandas as pd
 from pandas import Series
-
+import csv
+import json
 print(pd.read_csv('data/ch06/ex1.csv'))
 print(pd.read_csv('data/ch06/ex1.csv', sep=','))
 print(pd.read_csv('data/ch06/ex2.csv'))
@@ -23,3 +24,16 @@ for piece in chunker:
     tot = tot.add(piece['key'].value_counts(), fill_value=0)
 tot = tot.sort_values(ascending=False)
 print(tot[:10])
+
+f = open('data/ch06/ex7.csv')
+reader = csv.reader(f)
+for line in reader:
+    print(line)
+
+lines = list(csv.reader(open('data/ch06/ex7.csv')))
+print(lines)
+header, values = lines[0], lines[1:]
+data_dict = {h: v for h, v in zip(header, zip(*values))}
+print(data_dict)
+
+# print(pd.read_csv('data/ch06/ex7.csv'))
