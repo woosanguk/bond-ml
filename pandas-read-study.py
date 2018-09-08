@@ -1,7 +1,9 @@
 import pandas as pd
 from pandas import Series
+from lxml.html import parse
 import csv
 import json
+
 print(pd.read_csv('data/ch06/ex1.csv'))
 print(pd.read_csv('data/ch06/ex1.csv', sep=','))
 print(pd.read_csv('data/ch06/ex2.csv'))
