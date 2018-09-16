@@ -13,6 +13,8 @@ ipython notebook
 - 머신러인 애플리케이션의 성과를 어떻게 측정할 수 있는가?
 - 머신러닝 솔루션이 다른 연구나 제품과 어떻게 협력할 수 있는가?
 
+- https://pjreddie.com/
+
 # Reference
 
 - https://github.com/rickiepar/introduction_to_ml_with_python
