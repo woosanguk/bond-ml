@@ -5,7 +5,8 @@ ipython
 scikit-learn
 pandas
 pillow
-mglearn
+mglearnv
 notebook
 lxml
 requests
+tensorflow
