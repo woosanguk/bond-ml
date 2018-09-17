@@ -29,3 +29,4 @@ tensorboard --logdir=./tensor-3-minute/logs/
 - https://github.com/golbin/TensorFlow-Tutorials
 - https://www.tensorflow.org/serving/
 - https://pjreddie.com/
+- https://cloud.google.com/ml-engine/
