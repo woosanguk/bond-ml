@@ -21,3 +21,4 @@ ipython notebook
 - http://scikit-learn.org/stable/documentation
 - https://www.scipy-lectures.org/
 - https://github.com/wesm/pydata-book
+- https://github.com/golbin/TensorFlow-Tutorials

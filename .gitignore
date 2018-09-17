@@ -4,3 +4,4 @@ venv/
 *.pyc
 cache/
 data/
+tensor-3-minute/model
