@@ -13,9 +13,6 @@ ipython notebook
 - 머신러인 애플리케이션의 성과를 어떻게 측정할 수 있는가?
 - 머신러닝 솔루션이 다른 연구나 제품과 어떻게 협력할 수 있는가?
 
-- https://pjreddie.com/
-
-
 ## Tensorboard
 
 ```
@@ -30,3 +27,5 @@ tensorboard --logdir=./tensor-3-minute/logs/
 - https://www.scipy-lectures.org/
 - https://github.com/wesm/pydata-book
 - https://github.com/golbin/TensorFlow-Tutorials
+- https://www.tensorflow.org/serving/
+- https://pjreddie.com/
