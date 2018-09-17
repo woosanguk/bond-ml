@@ -15,6 +15,14 @@ ipython notebook
 
 - https://pjreddie.com/
 
+
+## Tensorboard
+
+```
+tensorboard --logdir=./tensor-3-minute/logs/
+```
+
+
 # Reference
 
 - https://github.com/rickiepar/introduction_to_ml_with_python

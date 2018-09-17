@@ -5,3 +5,4 @@ venv/
 cache/
 data/
 tensor-3-minute/model
+tensor-3-minute/logs

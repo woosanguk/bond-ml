@@ -28,7 +28,7 @@ train_op = optimizer.minimize(cost, global_step=global_step)
 sess = tf.Session()
 saver = tf.train.Saver(tf.global_variables())
 
-ckpt = tf.train.get_checkpoint_state('./model')
+ckpt = tf.train.get_checkpoint_state('./model/saver')
 if ckpt and tf.train.checkpoint_exists(ckpt.model_checkpoint_path):
     saver.restore(sess, ckpt.model_checkpoint_path)
 else:
@@ -38,7 +38,7 @@ for step in range(2):
     sess.run(train_op, feed_dict={X: x_data, Y: y_data})
     print('Step: %d, ' % sess.run(global_step), 'Cost: %.3f' % sess.run(cost, feed_dict={X: x_data, Y: y_data}))
 
-saver.save(sess, './model/dnn.ckpt', global_step=global_step)
+saver.save(sess, './model/saver/dnn.ckpt', global_step=global_step)
 
 prediction = tf.argmax(model, 1)
 target = tf.argmax(Y, 1)
