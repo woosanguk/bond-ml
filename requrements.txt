@@ -1,12 +1,10 @@
-numpy
+tensorflow
 scipy
 matplotlib
 ipython
 scikit-learn
 pandas
 pillow
-mglearnv
 notebook
 lxml
 requests
-tensorflow
