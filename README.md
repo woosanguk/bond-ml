@@ -30,3 +30,6 @@ tensorboard --logdir=./tensor-3-minute/logs/
 - https://www.tensorflow.org/serving/
 - https://pjreddie.com/
 - https://cloud.google.com/ml-engine/
+- https://github.com/rickiepark/introduction_to_ml_with_python
+- http://bamos.github.io/2016/08/09/deep-completion/
+- http://jaejunyoo.blogspot.com/2017/01/generative-adversarial-nets-1.html
