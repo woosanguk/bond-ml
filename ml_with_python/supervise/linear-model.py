@@ -29,3 +29,5 @@ lr = Ridge().fit(X_train, y_train)
 print(lr.score(X_train, y_train))
 print(lr.score(X_test, y_test))
 # print(mglearn.plots.plot_linear_regression_wave())
+
+
